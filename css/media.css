@@ -1,0 +1,139 @@
+@media ( max-width: 1100px) {
+    body {
+        padding: 20px 10px;
+    }
+    
+    .about-me {
+        padding: 50px 50px;
+    }
+
+    .social-link {
+        height: 16px;
+        width: 17px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding: 0 0;
+    }
+	.wrapper {
+        width: 100%; 
+        box-shadow: none;
+        
+    }
+
+    .sidebar {
+        width: 100%;
+        min-width: 270px; 
+        box-shadow: 31px 0px 20px -19px rgba(0, 0, 0, 0.15);
+    }
+
+    .my-photo {
+        width: 100%;
+    }
+
+    .about-me {
+        padding: 40px 40px;
+    }
+
+    .name {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 15px;
+    }
+
+    .dots, .tech-name, .brackets {
+        display: none;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 0 0;
+    }
+
+	.wrapper {
+        width: 100%;
+        flex-direction: column; 
+        box-shadow: none;
+        
+    }
+
+    .sidebar {
+        width: 100%;
+        font-size: 2em;
+        box-shadow: 0px 24px 40px -24px #000000;
+    }
+
+    .my-photo {
+        width: 100%;
+    }
+
+    
+    .line {
+        background-color: #ff6b08;
+        width: 90%;
+        height: 1px;
+        margin: 0 auto;
+        margin-top: 27px;
+       
+    }
+
+    .my-tech-skills {
+        margin-top: 27px;
+    }
+
+    .about-me {
+        padding: 40px 40px;
+    }
+
+    .name {
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 15px;
+    }
+
+    .info-container {
+        margin-bottom: 37.5px;
+    }
+
+}
+
+@media (max-width: 320px) {
+	
+    body {
+        padding: 0 0;
+    }
+	.wrapper {
+        width: 100%;
+        flex-direction: column; 
+        box-shadow: none;
+        
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .my-photo {
+        width: 100%;
+    }
+
+    .social-icon {
+        margin-left: 0px;
+    }
+
+    .about-me {
+        padding: 40px 30px;
+    }
+
+    .name {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+
+}
